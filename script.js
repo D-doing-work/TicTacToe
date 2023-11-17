@@ -50,9 +50,9 @@ function handleCellClick(e) {
 
 function endGame(draw) {
   if (draw) {
-    winningMessageTextElement.innerText = " It's a draw!\n\n\n\n\n";
+    winningMessageTextElement.innerText = " It's a draw!\n\n\n";
   } else {
-    winningMessageTextElement.innerText = "YOU WIN!!\n\n\n\n\n"
+    winningMessageTextElement.innerText = "YOU WIN!!\n\n\n"
     //   isPlayer_O_Turn ? "O's" : "X's"
     // } wins!`;
   }
